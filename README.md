@@ -18,14 +18,13 @@ reference:
 
 [RTAB-Map](https://github.com/introlab/rtabmap)
 
-## Introduction
 
-### About SLAM
+## About SLAM
 - SLAM (Simultaneous Localization And Mapping): Build a map while at the same time localizing the robot within that map. The chicken and egg problem: A good map is needed for localization while an accurate pose estimate is needed to build a map.
 
 - Visual SLAM: SLAM by using visual sensors such as monocular cameras, stereo rigs, RGB-D cameras, DVS, etc.
 
-### ORB-SLAM2
+## ORB-SLAM2
 - Reference: https://github.com/raulmur/ORB_SLAM2
 
 **Authors:** [Raul Mur-Artal](http://webdiis.unizar.es/~raulmur/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/), [J. M. M. Montiel](http://webdiis.unizar.es/~josemari/) and [Dorian Galvez-Lopez](http://doriangalvez.com/) ([DBoW2](https://github.com/dorian3d/DBoW2))
@@ -264,6 +263,13 @@ You can change between the *SLAM* and *Localization mode* using the GUI of the m
 ##### SLAM Mode
 This is the default mode. The system runs in parallal three threads: Tracking, Local Mapping and Loop Closing. The system localizes the camera, builds new map and tries to close loops.
 
-## Localization Mode
+### Localization Mode
 This mode can be used when you have a good map of your working area. In this mode the Local Mapping and Loop Closing are deactivated. The system localizes the camera in the map (which is no longer updated), using relocalization if needed. 
+
+## RTAB-Map
+- Reference 1: https://github.com/introlab/rtabmap
+- Reference 2: http://introlab.github.io/rtabmap/
+
+### Overview
+RTAB-Map (Real-Time Appearance-Based Mapping) is a RGB-D, Stereo and Lidar Graph-Based SLAM approach based on an incremental appearance-based loop closure detector. The loop closure detector uses a bag-of-words approach to determinate how likely a new image comes from a previous location or a new location. When a loop closure hypothesis is accepted, a new constraint is added to the map’s graph, then a graph optimizer minimizes the errors in the map. A memory management approach is used to limit the number of locations used for loop closure detection and graph optimization, so that real-time constraints on large-scale environnements are always respected. RTAB-Map can be used alone with a handheld Kinect, a stereo camera or a 3D lidar for 6DoF mapping, or on a robot equipped with a laser rangefinder for 3DoF mapping.
 
