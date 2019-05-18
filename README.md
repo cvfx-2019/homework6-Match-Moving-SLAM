@@ -19,6 +19,7 @@ Previous works:
 6.  5%  (Bonus-Insert a 3D model to your video)
 4.  30% (Assistant) 
 5.  20% (Mutual evaluation)
+6.  5%  (Bonus- Exploit creativity to enhance effects. Using post-production software is allowed)
 
 reference:
 - [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2)
