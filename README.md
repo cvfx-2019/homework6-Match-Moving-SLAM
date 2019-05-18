@@ -1,22 +1,27 @@
 # homework6-SLAM
-In this project, we'll levarage some SLAM (Simultaneous localization and mapping) methods to generate the visual effects in videos.
+In this project, we'll levarage some SLAM (Simultaneous localization and mapping) methods to generate the visual effects in videos. Please insert at least 1 object into your video by using SLAM methods or match moving technique. It can be a 3D model , 2D image or text.
+
+- Previous works:
+[ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2)
 
 ## Assign
 
 1.  5%  (Take videos by yourselves)
-2.  10% (Make some visual effetcs with ORB-SLAM2)
-3.  10% (Make some visual effetcs with RTAB-Map)
+2.  10% (Make these visual effects with ORB-SLAM2)
+3.  10% (Make these visual effects with RTAB-Map)
 4.  10% (Compare these SLAM methods)
 5.  10% (Make some special effects based on the pose information, such as rotating, zooming in or out)
-6.  5%  (Bonus-Add the 3D model to the video)
+6.  5%  (Bonus-Insert a 3D model to your video)
 4.  30% (Assistant) 
 5.  20% (Mutual evaluation)
 
 reference:
 
-[ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2)
+[CVFX2017 Team7](https://www.youtube.com/watch?time_continue=1&v=aX9H1eYJVbw)
 
-[RTAB-Map](https://github.com/introlab/rtabmap)
+[CVFX2018_Team4](https://youtu.be/2kNXNRpXGmw)
+
+[CVFX2018_Team15](https://r6---sn-un57sn76.c.drive.google.com/videoplayback?expire=1558204606&ei=fhjgXJK3Co6qugKrpbWwDw&ip=218.173.34.227&cp=QVNKWkNfU1ZOR1hOOlJXMG5sbC1rbVBDZDRxWFBIb1JwM2VYcEJiWFdlWGNnTFloNzUxUHBMMU0&id=9d97c34845897ceb&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-un57sn76&ms=nxu&mv=u&pl=22&ttl=transient&susc=dr&driveid=1g5STsv32xQNXUCFcDvCYlvmShQl3MiWK&app=explorer&mime=video/mp4&dur=14.349&lmt=1528896956206060&mt=1558189904&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAKRlPrRLFy8iJ0RsfSZfinxbECr5K1yJ1uBLu-__Vc9wAiEA2PHHIzCSmmwQW3cnGMFRmjZm_CqQHV-gQCjS8lYXDwM=&lsparams=mm,mn,ms,mv,pl&lsig=AHylml4wRAIgWXrVwUIvJqNk9sca9OD1dF8h2JNCHNYDebrVsi-WCfUCIDgT4o0xpcIo_7JelgOIWaKM4oRDsXCM39a3FmBOUD89&cpn=kK6UbQCaN87zj0wS&c=WEB_EMBEDDED_PLAYER&cver=20190516)
 
 
 ## About SLAM
