@@ -2,6 +2,7 @@
 In this project, we'll levarage some SLAM (Simultaneous localization and mapping) methods to generate the visual effects in videos. Please insert at least 1 object into your video by using SLAM methods or match moving technique. It can be a 3D model , 2D image or text.
 
 - Previous works:
+
 [CVFX2017 Team7](https://www.youtube.com/watch?time_continue=1&v=aX9H1eYJVbw)
 
 [CVFX2018_Team4](https://youtu.be/2kNXNRpXGmw)
