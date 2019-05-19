@@ -13,13 +13,13 @@ Previous works:
 
 1.  5%  (Take videos by yourselves)
 2.  10% (Make these visual effects with ORB-SLAM2)
-3.  10% (Make these visual effects with RTAB-Map)
-4.  10% (Compare these SLAM methods)
+3.  10% (Make these visual effects with some post-production software)
+4.  10% (Compare above methods)
 5.  10% (Make some special effects based on the pose information, such as rotating, zooming in or out)
-6.  5%  (Bonus-Insert a 3D model to your video)
+6.  5%  (Insert a 3D model to your video)
 4.  30% (Assistant) 
 5.  20% (Mutual evaluation)
-6.  5%  (Bonus- Exploit creativity to enhance effects. Using post-production software is allowed)
+6.  10%  (Bonus- Make visual effects with other SLAM methods.)
 
 reference:
 - [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2)
