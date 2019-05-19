@@ -26,6 +26,8 @@ reference:
 
 - [RTAB-Map](http://introlab.github.io/rtabmap/)
 
+- [Basic 3D Camera tracking tutorial in After Effects CC](https://www.youtube.com/watch?v=t6hgmRZZ4WE)
+
 ## About SLAM
 - SLAM (Simultaneous Localization And Mapping): Build a map while at the same time localizing the robot within that map. The chicken and egg problem: A good map is needed for localization while an accurate pose estimate is needed to build a map.
 
