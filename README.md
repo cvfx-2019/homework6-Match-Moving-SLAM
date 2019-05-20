@@ -13,7 +13,7 @@ Previous works:
 
 1.  5%  (Take videos by yourselves)
 2.  10% (Make these visual effects with ORB-SLAM2)
-3.  10% (Make these visual effects with some post-production software)
+3.  10% (Make these visual effects with any post-production software)
 4.  10% (Compare above methods)
 5.  10% (Make some special effects based on the pose information, such as rotating, zooming in or out)
 6.  5%  (Insert a 3D model to your video)
